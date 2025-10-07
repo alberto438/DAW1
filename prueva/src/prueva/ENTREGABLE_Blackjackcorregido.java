@@ -1,3 +1,5 @@
+package prueva;
+
 
 /* sección imports, utilizo las importaciones de metodos deArrays, Random para numeros aleatorios
 y el escaner para la comunicacion con el usuario */
@@ -28,7 +30,7 @@ public class ENTREGABLE_Blackjackcorregido {
 // Coleccion de las cartas combinando el array numerosbaraja y palosbaraja
 
         int indice = 0; 
-        for (String palo : palosbaraja) {S
+        for (String palo : palosbaraja) {
             for (String numero : numerosbaraja) {
                 mazo[indice] = numero + palo; 
                 indice++;            
