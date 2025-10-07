@@ -1,29 +1,28 @@
 package CuentaCorriente;
 
-
 import java.util.Scanner;
 
-public class Cuenta {
-
-	Scanner sc = new Scanner(System.in);
-	
+public class CuentaCorriente {
 	
 	String nombre;
 	String dni;
 	int saldo;
+	//Atributos
 	
-	public Cuenta(String nombre, String dni, int saldo) {
+	public CuentaCorriente(String nombre, String dni, int saldo) {
 		super();
 		this.nombre = nombre;
 		this.dni = dni;
 		this.saldo = saldo;
 	}
+	//Constructor
 	
-	int efectivo;
-	int retiro;
+
+	Scanner sc = new Scanner(System.in);
 	
+	//Métodos
 	void Ingresar() {
-		
+		int efectivo;
 		System.out.println("¿Cuanto dinero quieres ingresar?");
 		efectivo = sc.nextInt();
 		
@@ -32,7 +31,7 @@ public class Cuenta {
 	}
 	
 	void Retirar() {
-		
+		int retiro;
 		System.out.println("¿Cuanto dinero quieres retirar?");
 		retiro = sc.nextInt();
 	
@@ -49,5 +48,8 @@ public class Cuenta {
 		System.out.println("Tu puto nombre de mierda es: " + this.nombre + ", tu Dni de mierda es: " + this.dni + ", tienes esta mierda de dinero: " + this.saldo);
 	}
 	
+	void CloseScan() {
+		sc.close();
+	}
 	
 }

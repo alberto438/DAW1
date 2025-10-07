@@ -51,7 +51,8 @@ public class Main {
 		o2.engordar();
 		o2.engordar();
 		o2.saludar();
-		
+	
+		Scan.close();
 	}
 
 }
