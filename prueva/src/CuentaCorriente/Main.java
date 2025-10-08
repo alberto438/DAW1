@@ -22,6 +22,7 @@ public class Main {
 		c1.Retirar();
 		c1.Informacion();
 		c1.Retirar();
+		CloseScan():
 	}
 
 	
