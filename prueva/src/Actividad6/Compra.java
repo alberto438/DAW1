@@ -26,6 +26,6 @@ public class Compra {
 		double totalDescuento = total * 15 / 100;
 		double totalConDescuento = total - totalDescuento;
 		System.out.println("la rebaja de la compra es " + totalDescuento);
-		System.out.println("el coste de la compra es " + totalConDescuento);
+		System.out.println("el coste de la compra real es " + totalConDescuento);
 	}
 }
