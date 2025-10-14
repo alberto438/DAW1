@@ -1,4 +1,4 @@
-package ActividadesTema1;
+package Actividad1;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		Rectangulo r1 = new Rectangulo(0,0);
 		
-		r1.Area();
+		r1.CalcularPerimetroYArea();
 		sc.close();
 	}
 

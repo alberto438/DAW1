@@ -1,4 +1,4 @@
-package ActividadesTema1;
+package Actividad1;
 import java.util.Scanner;
 public class Rectangulo {
 
@@ -45,7 +45,7 @@ public class Rectangulo {
 
 
 
-	public void Area() {
+	public void CalcularPerimetroYArea() {
 		int base = 0;
 		System.out.println("¿Que base tiene?");
 		base = sc.nextInt();
