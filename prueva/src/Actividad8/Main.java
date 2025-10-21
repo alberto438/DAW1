@@ -13,6 +13,7 @@ public class Main {
 		double num1 = sc.nextDouble();
 		System.out.println("¿Cual es el segundo numero?");
 		double num2 = sc.nextDouble();
+		
 		DistanciaAbsoluta da1 = new DistanciaAbsoluta(num1, num2);
 		da1.mostrarDistancia();
 
